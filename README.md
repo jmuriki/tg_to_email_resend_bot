@@ -68,7 +68,7 @@ RECEIVER_EMAIL=
 python3 tg_bot.py
 ```
 
-## Запуск демона на Ubuntu для поддержание непрерывной работы
+## Запуск демона на Ubuntu для поддержания непрерывной работы
 
 ```sh
 cp tg_bot.service /etc/systemd/system
