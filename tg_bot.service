@@ -1,0 +1,5 @@
+[Service]
+ExecStart=/opt/tg_to_email_resend_bot/venv/bin/pyt /opt/tg_to_email_resend_bot/tg_bot.py
+Restart=always
+[Install]
+WantedBy=multi-user.target
